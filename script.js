@@ -5,5 +5,5 @@ function sayHello()
 	console.log(message)
 }
 
-sayHello()
+sayHello(firstname)
 
