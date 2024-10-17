@@ -3,3 +3,6 @@ let message1 = "Bonjour !"
 
 //Affiche le message dans ta console. Tu devrais avoir le message “Bonjour !” qui apparaît.
 console.log(message1)
+
+//Crée une seconde variable firstname dans lequel on va stocker un prénom. Exemple : Beyonce
+let firstName = "Beyonce"
