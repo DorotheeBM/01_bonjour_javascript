@@ -1,9 +1,11 @@
-function sayHello()
+function sayHello(firstName)
 {
-	let firstName = "Beyonce"
+	
 	let message = `Bonjour ${firstName} !`
 	console.log(message)
 }
 
-sayHello(firstname)
+//let firstName = "Beyonce"
+
+sayHello()
 
