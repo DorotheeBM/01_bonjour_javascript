@@ -1,6 +1,9 @@
-let message = `Bonjour ${firstName} !`
+function sayHello()
+{
+	let firstName = "Beyonce"
+	let message = `Bonjour ${firstName} !`
+	console.log(message)
+}
 
-let firstName = "Beyonce"
-
-console.log(message)
+sayHello()
 
