@@ -1,3 +1,5 @@
+let firstName = prompt("What's your name?")
+
 function sayHello(firstName, hour)
 {
 
@@ -7,9 +9,7 @@ function sayHello(firstName, hour)
 			message = `Bonsoir ${firstName} !`
 		}
 	
-	console.log(message)
+	document.querySelector('h1').innerText = message;
 }
 
-sayHello("Beyonce", 20)
-sayHello("Beyonce", 10)
-sayHello("Beyonce", 23)
+sayHello(firstName, 10)
