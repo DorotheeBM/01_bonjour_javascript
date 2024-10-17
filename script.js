@@ -5,7 +5,7 @@ function sayHello(firstName)
 	console.log(message)
 }
 
-//let firstName = "Beyonce"
+let firstName = "Beyonce"
 
-sayHello()
+sayHello(firstName)
 
