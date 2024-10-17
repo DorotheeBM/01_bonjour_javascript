@@ -1,8 +1,6 @@
-//ETAPE2 : Crée une variable message dans lequel on va stocker le message : Bonjour !
-let message1 = "Bonjour !"
+let message = `Bonjour ${firstName} !`
 
-//Affiche le message dans ta console. Tu devrais avoir le message “Bonjour !” qui apparaît.
-console.log(message1)
-
-//Crée une seconde variable firstname dans lequel on va stocker un prénom. Exemple : Beyonce
 let firstName = "Beyonce"
+
+console.log(message)
+
